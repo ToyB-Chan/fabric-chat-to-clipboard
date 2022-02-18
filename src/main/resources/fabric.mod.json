@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "chattoclipboard",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Chat to Clipboard",
+  "description": "Copy chat messages to clipboard!",
   "authors": [
-    "Me!"
+    "ToyB-Chan"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/ToyB-Chan/fabric-chat-to-clipboard"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/chattoclipboard/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.chat.to.clipboard.ChatToClipboard"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
